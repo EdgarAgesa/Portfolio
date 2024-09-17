@@ -39,7 +39,7 @@ function Projects() {
                     attract more customers and effectively showcase its products and services. The website is optimized 
                     for both desktop and mobile users, ensuring a seamless experience across all devices.
                 </p>
-                <a href="alineed-solution.netlify.app" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+                <a href="https://alineed-solution.netlify.app" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
         </div>
     );
