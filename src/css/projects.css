@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     background: linear-gradient(to right, slateblue, rgb(55, 115, 134));
-
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -37,6 +36,14 @@ h1 {
     line-height: 1.6;
     margin-bottom: 20px;
     color: #e0e0e0;
+}
+
+.mobile-warning {
+    color: #ffcc00;
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .project-link {

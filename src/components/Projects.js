@@ -4,6 +4,7 @@ function Projects() {
     return (
         <div className="projects-container">
             <h1>My Projects</h1>
+
             <div className="project-card">
                 <h2>Hostel Booking System</h2>
                 <p>
@@ -11,17 +12,24 @@ function Projects() {
                     This system includes secure payment processing via MPESA and robust user authentication mechanisms. 
                     It allows users to book and manage hostel reservations seamlessly.
                 </p>
+                <p className="mobile-warning">
+                    *Note: This project is not yet optimized for mobile devices.
+                </p>
                 <a href="https://moringahostels.netlify.app/" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
-            <div className="project-card">
-                <h2>A space Blog news site</h2>
-                <p>
-                    Created a full-stack blog application which enable a user to post a blog on space matters.
-                    It allows users to read, create, update, and delete blog posts.
 
+            <div className="project-card">
+                <h2>A Space Blog News Site</h2>
+                <p>
+                    Created a full-stack blog application that enables a user to post blogs on space matters.
+                    It allows users to read, create, update, and delete blog posts.
+                </p>
+                <p className="mobile-warning">
+                    *Note: This project is not yet optimized for mobile devices.
                 </p>
                 <a href="https://tecspaceflightblog.netlify.app/" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
+
             <div className="project-card">
                 <h2>Cocktail Explorer</h2>
                 <p>
@@ -31,6 +39,7 @@ function Projects() {
                 </p>
                 <a href="https://cocktailmaker-app.netlify.app/" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
+
             <div className="project-card">
                 <h2>Business Promotion Website</h2>
                 <p>
